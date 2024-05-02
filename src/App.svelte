@@ -16,22 +16,21 @@
     <button class="btn secondary">Secondary button</button>
   </div>
 
-  <button class="btn accent">Accent button</button>
   <button class="btn disabled">Disabled</button>
   <button class="btn success">Success</button>
   <button class="btn warning">Warning</button>
   <button class="btn error">Error</button>
 
-  <div class="message">
+  <div class="msg">
     <p>Message</p>
   </div>
-  <div class="message success">
+  <div class="msg success">
     <p>Success</p>
   </div>
-  <div class="message warning">
+  <div class="msg warning">
     <p>Warning</p>
   </div>
-  <div class="message error">
+  <div class="msg error">
     <p>Error</p>
   </div>
 
