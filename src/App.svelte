@@ -34,4 +34,54 @@
     <p>Error</p>
   </div>
 
+  <form action="#" method="POST">
+
+    <!-- Text Input -->
+    <label for="text">Text Input:</label><br>
+    <input type="text" id="text" name="text"><br><br>
+  
+    <!-- Password Input -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+  
+    <!-- Email Input -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+  
+    <!-- Number Input -->
+    <label for="number">Number:</label><br>
+    <input type="number" id="number" name="number"><br><br>
+  
+    <!-- Date Input -->
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date"><br><br>
+  
+    <!-- Checkbox -->
+    <label for="checkbox">Checkbox:</label><br>
+    <input type="checkbox" id="checkbox" name="checkbox" value="checkbox"><br><br>
+  
+    <!-- Radio Buttons -->
+    <label for="radio">Radio Buttons:</label><br>
+    <input type="radio" id="radio1" name="radio" value="option1">
+    <label for="radio1">Option 1</label><br>
+    <input type="radio" id="radio2" name="radio" value="option2">
+    <label for="radio2">Option 2</label><br><br>
+  
+    <!-- Select Dropdown -->
+    <label for="select">Select:</label><br>
+    <select id="select" name="select">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select><br><br>
+  
+    <!-- Textarea -->
+    <label for="textarea">Textarea:</label><br>
+    <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+  
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+  
+  </form>
+
 </main>
