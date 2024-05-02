@@ -12,6 +12,10 @@
 
   --background: hsl(0, 0%, 100%);
   --background1: hsl(0, 0%, 98%);
+  --background2: hsl(0, 0%, 96%);
+  --background3: hsl(0, 0%, 94%);
+  --background4: hsl(0, 0%, 92%);
+  --background5: hsl(0, 0%, 90%);
   --text: hsl(0, 0%, 0%);
   --text1: hsl(0, 0%, 10%);
   --primary: hsl(277, 100%, 50%);
@@ -50,14 +54,22 @@ h2 {
   font-weight: 800;
 }
 
-h3 {
+h3, th {
   font-size: 1.6rem;
   font-weight: 800;
 }
 
-p {
+p, li, td {
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+td {
+  text-align: center;
+}
+
+ul, ol {
+  list-style-position: inside;
 }
 
 input, option, select {
