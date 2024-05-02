@@ -60,6 +60,20 @@ p {
   font-weight: 400;
 }
 
+input, option, select {
+  padding: 0.5rem;
+  border-style: none;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+input, label, option, select {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: inherit;
+  margin-bottom: 0.5rem;
+}
+
 .text-small {
   font-size: 1.4rem;
   font-weight: 400;

@@ -80,7 +80,7 @@
     <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
   
     <!-- Submit Button -->
-    <input type="submit" value="Submit">
+    <button class="btn primary">Submit</button>
   
   </form>
 
